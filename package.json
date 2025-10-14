@@ -1,0 +1,38 @@
+{
+  "name": "cv-creation-server",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint src/**/*.js",
+    "start": "node ./src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yelyzaveta-heorhiieva/cv-creation-server.git"
+  },
+  "keywords": [],
+  "author": "Yelyzaveta Heorhiieva <heorhiieva.y@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yelyzaveta-heorhiieva/cv-creation-server/issues"
+  },
+  "homepage": "https://github.com/yelyzaveta-heorhiieva/cv-creation-server#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.37.0",
+    "eslint": "^9.37.0",
+    "globals": "^16.4.0",
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "docx": "^9.5.1",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "http-errors": "^2.0.0",
+    "joi": "^18.0.1",
+    "openai": "^6.3.0"
+  }
+}
