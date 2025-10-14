@@ -33,7 +33,7 @@ npm install
 PORT=3000
 OPENAI_API_KEY=your_openai_api_key
 ```
-4. Running the server
+## Running the server
 
 ```
 For development with automatic restart:
@@ -44,7 +44,7 @@ npm start
 ```
 
 ## API
-# Generate CV
+### Generate CV
  - Endpoint: /generate
  - Method: POST
  - Content-Type: application/json
