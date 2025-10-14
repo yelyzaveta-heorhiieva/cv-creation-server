@@ -1,6 +1,6 @@
 import { Document, Packer, Paragraph } from 'docx';
 import OpenAI from 'openai';
-import { generateFallback } from '../utils/generateFallBack.js';
+import { generateFallback } from '../utils/generateFallback.js';
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
